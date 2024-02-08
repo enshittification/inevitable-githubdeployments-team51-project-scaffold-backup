@@ -11,9 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-      with:
-        submodules: true
-        ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
     - name: Git Submodule Update
       run: |
@@ -49,7 +46,7 @@ jobs:
     - name: Upload the artifact
       uses: actions/upload-artifact@v4
       with:
-        name: repository-artifact
+        name: wpcom
         path: |
           .
           !.DS_Store
