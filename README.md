@@ -10,7 +10,6 @@ With this template you can easily develop your Team51 Project Scaffold site and 
 
 - Connect your GitHub with WordPress.com [following these steps](https://wordpress.com/support/deploy-from-github-workflow)
 - Once you have cloned this repository follow the installation steps of [Team51 Project Scaffold](https://github.com/a8cteam51/team51-project-scaffold)
-- Add the `SSH_PRIVATE_KEY` secret with your private GitHub for this repository on repository settings
 - Start developing and notice that each change will reflect in realtime on our servers
 
 [screenshot showing the connection]
